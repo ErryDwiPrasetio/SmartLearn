@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    background: #ff4134;
+}
+
+/* button */
+.button {
+    width: 160px;
+    height: 40px;
+    float: center;
+    padding: 8px 18px 10px;
+    border: 1px solid;
+}
+
+/* font */
+
+h1,
+h2,
+.heading {
+    font-family: Georgia;
+    margin: 2px;
+    font-size: 22px;
+}
+
+.meratakan {
+    overflow: hidden;
+    margin: 0px auto;
+    width: 1000px;
+}
+
+/* Urutan Margin Tinggi, Kanan, Bawah, Kiri */
+/* Urutan Padding Tinggi Bawah, Kiri Kanan */
+.menu {
+    position: absolute;
+    width: 100%;
+    background: #ffffff80;
+    padding: 0 100px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #00000033
+}
+
+.menu img {
+    float: left;
+    width: 80px;
+}
+
+nav {
+    position: relative;
+    float: right;
+}
+
+/* Display dibuat agar navbar terlihat lurus bukan kebawah */
+nav ul {
+    margin: 0;
+    display: flex;
+}
+
+/* List-Style Dibuat agar tidak ada titik pada navbar */
+nav ul li {
+    list-style: none;
+}
+
+/* Text decoration dibuat agar tidak ada garis pada navbar */
+nav ul li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 33px 20px;
+}
+
+nav ul li a:hover {
+    background: #be1610;
+    color: #fff;
+}
+
+/* Header dan Gambar Header */
+
+.gambar-header {
+    background-image: url(sampul.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#header {
+    padding: 200px 0;
+}
+
+#header .isi-header {
+    display: block;
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#header p {
+    text-align: center;
+}
+
+.bawah-header {
+    margin-top: 80px;
+}
+
+#header .heading {
+    font-size: 26px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 18px 10px;
+    border: 1px solid;
+    border-radius: 22px;
+    color: white;
+    background-color: #ff4134;
+    border-color: white;
+    text-decoration: none;
+}
+
+.spasi {
+    margin: 0;
+    padding: 0;
+}
+
+.merapihkan * {
+    display: inline-block;
+    margin-right: 0;
+}
+
+/* FITUR */
+#fitur {
+    background: #ff4134;
+}
+
+#extra .title {
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 48px;
+}
+
+.title h2 {
+    font-size: 43px;
+    color: white;
+}
+
+#tigakolom {
+    color: white;
+}
+
+.box {
+    padding: 48px 32px;
+    border: 1px solid #0000001a;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.boxA,
+.boxB,
+.boxC {
+    width: 320px;
+}
+
+.boxA,
+.boxB {
+    float: left;
+    margin-right: 20px;
+}
+
+.boxC {
+    float: right;
+}
+
+#extra {
+    padding: 80px 0px;
+}
+
+#extra .title {
+    text-align: center;
+}
+
+/* Pengajar */
+#pengajar {
+    background: white;
+}
+
+#beda-warna {
+    color: #ff4134;
+}
+
+/* Hubungi Kami */
+#hubungikami {
+    background: #ff4134;
+}
+
+.text-form {
+    display: block;
+    font-size: 14px;
+    line-height: 35px;
+    width: 110px;
+    color: white;
+}
+
+#contact-form {
+    width: 100%;
+}
+
+#contact-form label {
+    height: 40px;
+}
+
+#contact-form input {
+    float: center;
+    width: 510px;
+    font-size: 13px;
+    padding: 9px 7px;
+    margin: 0;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+}
+
+#contact-form textarea {
+    float: center;
+    height: 185px;
+    width: 510px;
+    font-size: 13px;
+    padding: 7px 9px;
+}
+
+
+/* Footer */
+#footer {
+    background: #ff4134;
+    color: white;
+    text-align: center;
+    border: 1px solid #af1005;
+}
+
+/* Foto-foto */
+.thumbnail {
+    background-color: white;
+    padding: 10px;
+    width: 290px;
+    margin: 10px;
+    float: left;
+    border-color: #ff4134;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+#foto {
+    background-color: white;
+}
+
+/* Tentang Kami */
+.kiri {
+    float: left;
+    width: 180px;
+    padding-right: 20px;
+}
+
+.kanan {
+    float: right;
+}
+
+#tentangkami {
+    background: white;
+}
+
+#tentangkami p {
+    text-align: left;
+}
